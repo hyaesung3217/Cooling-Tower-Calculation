@@ -13,22 +13,22 @@ With the model generated from the file "CoolingTowerParametrization," it is poss
 The following inputs, constants, and functions are used across different programs. Users can modify their content, but changes should be made carefully as they affect other parts of the code. Inputs can be entered manually or via sliders:
 
 - **Inputs**: 
-  - Water flow
-  - Wet bulb temperature
-  - Number of streams
-  - Minimum fan speed percentage
-  - Initial range value (iteration)
+  - `Water flow`
+  - `Wet bulb temperature`
+  - `Number of streams`
+  - `Minimum fan speed percentage`
+  - `Initial range value (iteration)`
 
 - **User-Defined Constants** (values can be changed):
-  - CHILLER_CAPACITY_UNIT_TR
-  - SPECIFIC_HEAT
-  - CHILLER_WATER_FLOW
-  - FAN_POWER
-  - WATER_DENSITY
-  - GRAVITY
-  - PUMP_HEAD
-  - PUMP_WATER_FLOW
-  - PUMP_EFFECTIVENESS
+  - `CHILLER_CAPACITY_UNIT_TR`
+  - `SPECIFIC_HEAT`
+  - `CHILLER_WATER_FLOW`
+  - `FAN_POWER`
+  - `WATER_DENSITY`
+  - `GRAVITY`
+  - `PUMP_HEAD`
+  - `PUMP_WATER_FLOW`
+  - `PUMP_EFFECTIVENESS`
 
 ### User-Defined Functions
 These functions are used for various calculations:
