@@ -1,5 +1,24 @@
+# Cooling Tower Energy Optimization
 
-# Cooling-Tower-Optimization
+## **Caution:**
+**Note:** The actual data and values used in this program have been replaced by **defined by user** due to copyright issues.
+
+## Overview
+
+This program is designed for energy optimization calculations and predictions in circuits where a Chiller is combined with a cooling tower, based on real performance curve data of cooling towers.
+
+## How It Works
+
+- Users can generate a model by creating a pickle file from the "CoolingTowerParametrization" file using their own chiller and cooling tower data.
+- After generating the model, energy optimization calculations can be performed through the "CoolingTowerOptimization" file.
+
+## CoolingTowerParametrization
+
+This section allows users to input their own chiller and cooling tower data to create a model. The data is saved as a pickle file, which can then be used for optimization calculations.
+
+(Filled the content)
+
+## CoolingTowerOptimization
 
 Once the model is created using the "CoolingTowerParametrization" file, this section performs energy optimization calculations based on the user-defined inputs and the generated model.
 
@@ -59,3 +78,7 @@ These functions are used for various calculations:
 5. **Minimum Total Consumption vs Wet Bulb Temperature**: 
    - Generate a 2D plot showing the minimum total consumption values at different wet bulb temperature levels when consumption is minimized.
 
+
+## Future Plans
+
+Currently, only "CoolingTowerParametrization" and "CoolingTowerOptimization" files are available. However, there are plans to develop a PID control program for cooling towers based on energy optimization in the future.
